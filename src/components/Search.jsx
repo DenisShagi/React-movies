@@ -50,7 +50,6 @@ class Search extends Component {
                 className="with-gap"
                 name="type"
                 type="radio"
-                checked
                 data-type="all"
                 onChange={this.handleFilter}
                 checked={this.state.type === "all"}
@@ -62,7 +61,6 @@ class Search extends Component {
                 className="with-gap"
                 name="type"
                 type="radio"
-                checked
                 data-type="movie"
                 onChange={this.handleFilter}
                 checked={this.state.type === "movie"}
@@ -74,7 +72,6 @@ class Search extends Component {
                 className="with-gap"
                 name="type"
                 type="radio"
-                checked
                 data-type="series"
                 onChange={this.handleFilter}
                 checked={this.state.type === "series"}
