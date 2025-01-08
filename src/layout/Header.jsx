@@ -7,7 +7,7 @@ function Header() {
         </a>
         <ul id="nav-mobile" className="left hide-on-med-and-down">
           <li>
-            <a href="#">Repo</a>
+            <a href="https://github.com/DenisShagi" target="_blank">DenisShagi</a>
           </li>
         </ul>
       </div>
